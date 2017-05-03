@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C431E31EB9EB3500981656 /* CKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C431E21EB9EB3500981656 /* CKAlertViewController.m */; };
+		18C431E71EB9EB6900981656 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C431E61EB9EB6900981656 /* UIView+Extension.m */; };
 		18E7925A1EB9CE5C002AAC08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E792591EB9CE5C002AAC08 /* main.m */; };
 		18E7925D1EB9CE5C002AAC08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7925C1EB9CE5C002AAC08 /* AppDelegate.m */; };
 		18E792601EB9CE5C002AAC08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7925F1EB9CE5C002AAC08 /* ViewController.m */; };
 		18E792631EB9CE5C002AAC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E792611EB9CE5C002AAC08 /* Main.storyboard */; };
 		18E792651EB9CE5C002AAC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E792641EB9CE5C002AAC08 /* Assets.xcassets */; };
 		18E792681EB9CE5C002AAC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E792661EB9CE5C002AAC08 /* LaunchScreen.storyboard */; };
+		18E7929A1EB9E93C002AAC08 /* CallDirectoryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E792991EB9E93C002AAC08 /* CallDirectoryHandler.m */; };
+		18E7929E1EB9E93C002AAC08 /* WDCallKit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18E792961EB9E93C002AAC08 /* WDCallKit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		18E7929C1EB9E93C002AAC08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E7924D1EB9CE5C002AAC08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E792951EB9E93C002AAC08;
+			remoteInfo = WDCallKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18E792A21EB9E93C002AAC08 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18E7929E1EB9E93C002AAC08 /* WDCallKit.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		18C431E11EB9EB3500981656 /* CKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAlertViewController.h; sourceTree = "<group>"; };
+		18C431E21EB9EB3500981656 /* CKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAlertViewController.m; sourceTree = "<group>"; };
+		18C431E51EB9EB6900981656 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18C431E61EB9EB6900981656 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		18E792551EB9CE5C002AAC08 /* CallRecognize_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallRecognize_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E792591EB9CE5C002AAC08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E7925B1EB9CE5C002AAC08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +58,10 @@
 		18E792641EB9CE5C002AAC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E792671EB9CE5C002AAC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E792691EB9CE5C002AAC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E792961EB9E93C002AAC08 /* WDCallKit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WDCallKit.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E792981EB9E93C002AAC08 /* CallDirectoryHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallDirectoryHandler.h; sourceTree = "<group>"; };
+		18E792991EB9E93C002AAC08 /* CallDirectoryHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallDirectoryHandler.m; sourceTree = "<group>"; };
+		18E7929B1EB9E93C002AAC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,13 +72,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18E792931EB9E93C002AAC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C431E01EB9EB3500981656 /* CKAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				18C431E11EB9EB3500981656 /* CKAlertViewController.h */,
+				18C431E21EB9EB3500981656 /* CKAlertViewController.m */,
+			);
+			path = CKAlertView;
+			sourceTree = "<group>";
+		};
+		18C431E41EB9EB6900981656 /* UIView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18C431E51EB9EB6900981656 /* UIView+Extension.h */,
+				18C431E61EB9EB6900981656 /* UIView+Extension.m */,
+			);
+			path = "UIView+Extension";
+			sourceTree = "<group>";
+		};
 		18E7924C1EB9CE5C002AAC08 = {
 			isa = PBXGroup;
 			children = (
 				18E792571EB9CE5C002AAC08 /* CallRecognize_DEMO */,
+				18E792971EB9E93C002AAC08 /* WDCallKit */,
 				18E792561EB9CE5C002AAC08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				18E792551EB9CE5C002AAC08 /* CallRecognize_DEMO.app */,
+				18E792961EB9E93C002AAC08 /* WDCallKit.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +125,8 @@
 				18E7925C1EB9CE5C002AAC08 /* AppDelegate.m */,
 				18E7925E1EB9CE5C002AAC08 /* ViewController.h */,
 				18E7925F1EB9CE5C002AAC08 /* ViewController.m */,
+				18C431E41EB9EB6900981656 /* UIView+Extension */,
+				18C431E01EB9EB3500981656 /* CKAlertView */,
 				18E792611EB9CE5C002AAC08 /* Main.storyboard */,
 				18E792641EB9CE5C002AAC08 /* Assets.xcassets */,
 				18E792661EB9CE5C002AAC08 /* LaunchScreen.storyboard */,
@@ -79,6 +144,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		18E792971EB9E93C002AAC08 /* WDCallKit */ = {
+			isa = PBXGroup;
+			children = (
+				18E792981EB9E93C002AAC08 /* CallDirectoryHandler.h */,
+				18E792991EB9E93C002AAC08 /* CallDirectoryHandler.m */,
+				18E7929B1EB9E93C002AAC08 /* Info.plist */,
+			);
+			path = WDCallKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,15 +164,34 @@
 				18E792511EB9CE5C002AAC08 /* Sources */,
 				18E792521EB9CE5C002AAC08 /* Frameworks */,
 				18E792531EB9CE5C002AAC08 /* Resources */,
+				18E792A21EB9E93C002AAC08 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18E7929D1EB9E93C002AAC08 /* PBXTargetDependency */,
 			);
 			name = CallRecognize_DEMO;
 			productName = CallRecognize_DEMO;
 			productReference = 18E792551EB9CE5C002AAC08 /* CallRecognize_DEMO.app */;
 			productType = "com.apple.product-type.application";
+		};
+		18E792951EB9E93C002AAC08 /* WDCallKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E792A11EB9E93C002AAC08 /* Build configuration list for PBXNativeTarget "WDCallKit" */;
+			buildPhases = (
+				18E792921EB9E93C002AAC08 /* Sources */,
+				18E792931EB9E93C002AAC08 /* Frameworks */,
+				18E792941EB9E93C002AAC08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDCallKit;
+			productName = WDCallKit;
+			productReference = 18E792961EB9E93C002AAC08 /* WDCallKit.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +203,11 @@
 				ORGANIZATIONNAME = jxx;
 				TargetAttributes = {
 					18E792541EB9CE5C002AAC08 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U2FJFS2W8C;
+						ProvisioningStyle = Automatic;
+					};
+					18E792951EB9E93C002AAC08 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = U2FJFS2W8C;
 						ProvisioningStyle = Automatic;
@@ -129,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				18E792541EB9CE5C002AAC08 /* CallRecognize_DEMO */,
+				18E792951EB9E93C002AAC08 /* WDCallKit */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +244,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18E792941EB9E93C002AAC08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -151,13 +258,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C431E71EB9EB6900981656 /* UIView+Extension.m in Sources */,
 				18E792601EB9CE5C002AAC08 /* ViewController.m in Sources */,
 				18E7925D1EB9CE5C002AAC08 /* AppDelegate.m in Sources */,
 				18E7925A1EB9CE5C002AAC08 /* main.m in Sources */,
+				18C431E31EB9EB3500981656 /* CKAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E792921EB9E93C002AAC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E7929A1EB9E93C002AAC08 /* CallDirectoryHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E7929D1EB9E93C002AAC08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E792951EB9E93C002AAC08 /* WDCallKit */;
+			targetProxy = 18E7929C1EB9E93C002AAC08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		18E792611EB9CE5C002AAC08 /* Main.storyboard */ = {
@@ -295,6 +420,34 @@
 			};
 			name = Release;
 		};
+		18E7929F1EB9E93C002AAC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEVELOPMENT_TEAM = U2FJFS2W8C;
+				INFOPLIST_FILE = WDCallKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autoday.CallRecognize-DEMO.WDCallKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18E792A01EB9E93C002AAC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEVELOPMENT_TEAM = U2FJFS2W8C;
+				INFOPLIST_FILE = WDCallKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autoday.CallRecognize-DEMO.WDCallKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -314,6 +467,16 @@
 				18E7926E1EB9CE5C002AAC08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E792A11EB9E93C002AAC08 /* Build configuration list for PBXNativeTarget "WDCallKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E7929F1EB9E93C002AAC08 /* Debug */,
+				18E792A01EB9E93C002AAC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
