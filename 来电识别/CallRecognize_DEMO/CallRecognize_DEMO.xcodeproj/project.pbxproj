@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		189D0CAA1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA21EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png */; };
-		189D0CAB1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA31EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png */; };
-		189D0CAC1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA41EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png */; };
-		189D0CAD1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA51EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png */; };
-		189D0CAE1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA61EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png */; };
-		189D0CAF1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA71EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png */; };
-		189D0CB01EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA81EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png */; };
-		189D0CB11EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA91EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png */; };
+		189D0CAA1EBABFDC006D5652 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA21EBABFDC006D5652 /* 1.png */; };
+		189D0CAB1EBABFDC006D5652 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA31EBABFDC006D5652 /* 2.png */; };
+		189D0CAC1EBABFDC006D5652 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA41EBABFDC006D5652 /* 3.png */; };
+		189D0CAD1EBABFDC006D5652 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA51EBABFDC006D5652 /* 4.png */; };
+		189D0CAE1EBABFDC006D5652 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA61EBABFDC006D5652 /* 5.png */; };
+		189D0CAF1EBABFDC006D5652 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA71EBABFDC006D5652 /* 6.png */; };
+		189D0CB01EBABFDC006D5652 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA81EBABFDC006D5652 /* 7.png */; };
+		189D0CB11EBABFDC006D5652 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA91EBABFDC006D5652 /* 8.png */; };
+		189D0CB71EBAC9D9006D5652 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CB41EBAC9D9006D5652 /* 9.png */; };
+		189D0CB81EBAC9D9006D5652 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CB51EBAC9D9006D5652 /* 10.png */; };
+		189D0CB91EBAC9D9006D5652 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CB61EBAC9D9006D5652 /* 11.png */; };
 		18C431E31EB9EB3500981656 /* CKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C431E21EB9EB3500981656 /* CKAlertViewController.m */; };
 		18C431E71EB9EB6900981656 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C431E61EB9EB6900981656 /* UIView+Extension.m */; };
 		18E7925A1EB9CE5C002AAC08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E792591EB9CE5C002AAC08 /* main.m */; };
@@ -52,14 +55,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		189D0CA21EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.40.01.png"; sourceTree = "<group>"; };
-		189D0CA31EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.40.49.png"; sourceTree = "<group>"; };
-		189D0CA41EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.41.54.png"; sourceTree = "<group>"; };
-		189D0CA51EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.42.25.png"; sourceTree = "<group>"; };
-		189D0CA61EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.43.56.png"; sourceTree = "<group>"; };
-		189D0CA71EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.44.12.png"; sourceTree = "<group>"; };
-		189D0CA81EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.44.24.png"; sourceTree = "<group>"; };
-		189D0CA91EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.44.38.png"; sourceTree = "<group>"; };
+		189D0CA21EBABFDC006D5652 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		189D0CA31EBABFDC006D5652 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		189D0CA41EBABFDC006D5652 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		189D0CA51EBABFDC006D5652 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		189D0CA61EBABFDC006D5652 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		189D0CA71EBABFDC006D5652 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		189D0CA81EBABFDC006D5652 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		189D0CA91EBABFDC006D5652 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		189D0CB21EBAC611006D5652 /* CallRecognize_DEMO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallRecognize_DEMO.entitlements; sourceTree = "<group>"; };
+		189D0CB31EBAC63C006D5652 /* WDCallKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WDCallKit.entitlements; sourceTree = "<group>"; };
+		189D0CB41EBAC9D9006D5652 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		189D0CB51EBAC9D9006D5652 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		189D0CB61EBAC9D9006D5652 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 		18C431E11EB9EB3500981656 /* CKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAlertViewController.h; sourceTree = "<group>"; };
 		18C431E21EB9EB3500981656 /* CKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAlertViewController.m; sourceTree = "<group>"; };
 		18C431E51EB9EB6900981656 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
@@ -98,18 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		189D0CA11EBABFDC006D5652 /* 未命名文件夹 */ = {
+		189D0CA11EBABFDC006D5652 /* 配置流程截图 */ = {
 			isa = PBXGroup;
 			children = (
-				189D0CA21EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png */,
-				189D0CA31EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png */,
-				189D0CA41EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png */,
-				189D0CA51EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png */,
-				189D0CA61EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png */,
-				189D0CA71EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png */,
-				189D0CA81EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png */,
-				189D0CA91EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png */,
+				189D0CA21EBABFDC006D5652 /* 1.png */,
+				189D0CA31EBABFDC006D5652 /* 2.png */,
+				189D0CA41EBABFDC006D5652 /* 3.png */,
+				189D0CA51EBABFDC006D5652 /* 4.png */,
+				189D0CA61EBABFDC006D5652 /* 5.png */,
+				189D0CA71EBABFDC006D5652 /* 6.png */,
+				189D0CA81EBABFDC006D5652 /* 7.png */,
+				189D0CA91EBABFDC006D5652 /* 8.png */,
+				189D0CB41EBAC9D9006D5652 /* 9.png */,
+				189D0CB51EBAC9D9006D5652 /* 10.png */,
+				189D0CB61EBAC9D9006D5652 /* 11.png */,
 			);
+			name = "配置流程截图";
 			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
@@ -134,7 +146,7 @@
 		18E7924C1EB9CE5C002AAC08 = {
 			isa = PBXGroup;
 			children = (
-				189D0CA11EBABFDC006D5652 /* 未命名文件夹 */,
+				189D0CA11EBABFDC006D5652 /* 配置流程截图 */,
 				18E792571EB9CE5C002AAC08 /* CallRecognize_DEMO */,
 				18E792971EB9E93C002AAC08 /* WDCallKit */,
 				18E792561EB9CE5C002AAC08 /* Products */,
@@ -153,6 +165,7 @@
 		18E792571EB9CE5C002AAC08 /* CallRecognize_DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				189D0CB21EBAC611006D5652 /* CallRecognize_DEMO.entitlements */,
 				18E7925B1EB9CE5C002AAC08 /* AppDelegate.h */,
 				18E7925C1EB9CE5C002AAC08 /* AppDelegate.m */,
 				18E7925E1EB9CE5C002AAC08 /* ViewController.h */,
@@ -179,6 +192,7 @@
 		18E792971EB9E93C002AAC08 /* WDCallKit */ = {
 			isa = PBXGroup;
 			children = (
+				189D0CB31EBAC63C006D5652 /* WDCallKit.entitlements */,
 				18E792981EB9E93C002AAC08 /* CallDirectoryHandler.h */,
 				18E792991EB9E93C002AAC08 /* CallDirectoryHandler.m */,
 				18E7929B1EB9E93C002AAC08 /* Info.plist */,
@@ -238,11 +252,21 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = U2FJFS2W8C;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					18E792951EB9E93C002AAC08 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = U2FJFS2W8C;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -270,17 +294,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189D0CB71EBAC9D9006D5652 /* 9.png in Resources */,
 				18E792681EB9CE5C002AAC08 /* LaunchScreen.storyboard in Resources */,
 				18E792651EB9CE5C002AAC08 /* Assets.xcassets in Resources */,
+				189D0CB81EBAC9D9006D5652 /* 10.png in Resources */,
 				18E792631EB9CE5C002AAC08 /* Main.storyboard in Resources */,
-				189D0CB11EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png in Resources */,
-				189D0CAF1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png in Resources */,
-				189D0CAA1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png in Resources */,
-				189D0CAE1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png in Resources */,
-				189D0CAD1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png in Resources */,
-				189D0CAC1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png in Resources */,
-				189D0CB01EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png in Resources */,
-				189D0CAB1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png in Resources */,
+				189D0CB11EBABFDC006D5652 /* 8.png in Resources */,
+				189D0CAF1EBABFDC006D5652 /* 6.png in Resources */,
+				189D0CAA1EBABFDC006D5652 /* 1.png in Resources */,
+				189D0CAE1EBABFDC006D5652 /* 5.png in Resources */,
+				189D0CAD1EBABFDC006D5652 /* 4.png in Resources */,
+				189D0CB91EBAC9D9006D5652 /* 11.png in Resources */,
+				189D0CAC1EBABFDC006D5652 /* 3.png in Resources */,
+				189D0CB01EBABFDC006D5652 /* 7.png in Resources */,
+				189D0CAB1EBABFDC006D5652 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CallRecognize_DEMO/CallRecognize_DEMO.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = U2FJFS2W8C;
 				INFOPLIST_FILE = CallRecognize_DEMO/Info.plist;
@@ -450,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CallRecognize_DEMO/CallRecognize_DEMO.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = U2FJFS2W8C;
 				INFOPLIST_FILE = CallRecognize_DEMO/Info.plist;
@@ -464,6 +493,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = WDCallKit/WDCallKit.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = U2FJFS2W8C;
 				INFOPLIST_FILE = WDCallKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -478,6 +509,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = WDCallKit/WDCallKit.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = U2FJFS2W8C;
 				INFOPLIST_FILE = WDCallKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
