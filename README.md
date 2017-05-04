@@ -2,6 +2,7 @@
 #简介: iOS来电识别与骚扰拦截的功能实现由多种方式.一种是通过写通讯录的方式,另外一种是通过扩展(Extention, ios 8 以后)的方式.本文讲解后面的实现方式
 #集成步骤:
 1.新建工程CallRecognize-DEMO,然后在xcode--file--New--Target..--
+![image](https://github.com/emptyglass123/WDCALLDEMO/来电识别/CallRecognize_DEMO/未命名文件夹/1.png)
 2.在弹出的窗体中选择Call Directory Extention 然后点击右下角的Next.在接下来出现的窗体中填写Pruduc Name  等信息,点击Finish
 3.然后我们会在工程中目录中看见xcode为我们创建了一个以Pruduc Name命名的文件夹
 4.现在我们来检查一下项目的配置信息: 找到Target下面的两个条目,一个是我们工程本身的Target  另一个是来电识别的Target 分别点开,然后对别两者的Bundli Identifier 规则是:电识别的Target = 工程本身的Target + 创建Extention时填写的Pruduc Name
