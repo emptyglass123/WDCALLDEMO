@@ -106,7 +106,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		189D0CA11EBABFDC006D5652 /* 配置流程截图 */ = {
+		189D0CA11EBABFDC006D5652 /* 截图 */ = {
 			isa = PBXGroup;
 			children = (
 				189D0CA21EBABFDC006D5652 /* 1.png */,
@@ -121,7 +121,7 @@
 				189D0CB51EBAC9D9006D5652 /* 10.png */,
 				189D0CB61EBAC9D9006D5652 /* 11.png */,
 			);
-			name = "配置流程截图";
+			name = "截图";
 			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
@@ -146,7 +146,7 @@
 		18E7924C1EB9CE5C002AAC08 = {
 			isa = PBXGroup;
 			children = (
-				189D0CA11EBABFDC006D5652 /* 配置流程截图 */,
+				189D0CA11EBABFDC006D5652 /* 截图 */,
 				18E792571EB9CE5C002AAC08 /* CallRecognize_DEMO */,
 				18E792971EB9E93C002AAC08 /* WDCallKit */,
 				18E792561EB9CE5C002AAC08 /* Products */,
