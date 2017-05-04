@@ -1,10 +1,11 @@
 # WDCALLDEMO
 #简介: iOS来电识别与骚扰拦截的功能实现由多种方式.一种是通过写通讯录的方式,另外一种是通过扩展(Extention, ios 8 以后)的方式.本文讲解后面的实现方式
 #集成步骤:
-1.新建工程CallRecognize-DEMO,然后在xcode--file--New--Target..--
+#1.新建工程CallRecognize-DEMO,然后在xcode--file--New--Target..--#
+
 ![](https://github.com/emptyglass123/WDCALLDEMO/来电识别/CallRecognize_DEMO/配置流程截图/1.png)
-2.在弹出的窗体中选择Call Directory Extention 然后点击右下角的Next.在接下来出现的窗体中填写Pruduc Name  等信息,点击Finish
-3.然后我们会在工程中目录中看见xcode为我们创建了一个以Pruduc Name命名的文件夹
+# 2.在弹出的窗体中选择Call Directory Extention 然后点击右下角的Next.在接下来出现的窗体中填写Pruduc Name  等信息,点击Finish
+# 3.然后我们会在工程中目录中看见xcode为我们创建了一个以Pruduc Name命名的文件夹
 4.现在我们来检查一下项目的配置信息: 找到Target下面的两个条目,一个是我们工程本身的Target  另一个是来电识别的Target 分别点开,然后对别两者的Bundli Identifier 规则是:电识别的Target = 工程本身的Target + 创建Extention时填写的Pruduc Name
 5.然后配置签名(Signing) 我这里用的是xcode Automatically 方式,使用的是个人apple id.如果是对开发者账号进行配置,需要生成两个描述文件,一个是工程本身的描述文件,一个是扩展用的描述文件. 在开发者中心生成描述文件的时候需要勾Groups(很重要).要保证前面两个Target 的签名一致.
 6.这里说一下这两个Target的关系,扩展相当于一个中间体,介于系统和你开发的项目之间的连接体.或者说来电识别的扩展是寄生在你开发的项目中的.两者间没有直接的数据通讯,除非你将来电识别的号码写死在扩展里面.否则你需要借助数据共享区来实现号码库及时更新.数据共享区是两个Target都可以访问的区域,因此非常适合我们的需求.主要的识别原理是我们预先将号码库写入数据共享区,然后在手机系统设置里面打开来电识别的开关,当电话打进来的时候,扩展Target去数据共享区里查找与之匹配的电话号码,如果有则通过callkit展示出来  显示在通话屏幕上.前提是此电话号码不存在于你的通讯录.因为通讯录的优先级高于来电识别库的优先级.
