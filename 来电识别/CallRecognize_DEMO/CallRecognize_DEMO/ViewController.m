@@ -30,7 +30,6 @@
     [super viewDidLoad];
 
     [self checkCallPermissions];
-    
     [self writeTextCallNumber];
 
 }
