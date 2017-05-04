@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189D0CAA1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA21EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png */; };
+		189D0CAB1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA31EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png */; };
+		189D0CAC1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA41EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png */; };
+		189D0CAD1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA51EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png */; };
+		189D0CAE1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA61EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png */; };
+		189D0CAF1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA71EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png */; };
+		189D0CB01EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA81EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png */; };
+		189D0CB11EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D0CA91EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png */; };
 		18C431E31EB9EB3500981656 /* CKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C431E21EB9EB3500981656 /* CKAlertViewController.m */; };
 		18C431E71EB9EB6900981656 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C431E61EB9EB6900981656 /* UIView+Extension.m */; };
 		18E7925A1EB9CE5C002AAC08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E792591EB9CE5C002AAC08 /* main.m */; };
@@ -44,6 +52,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		189D0CA21EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.40.01.png"; sourceTree = "<group>"; };
+		189D0CA31EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.40.49.png"; sourceTree = "<group>"; };
+		189D0CA41EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.41.54.png"; sourceTree = "<group>"; };
+		189D0CA51EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.42.25.png"; sourceTree = "<group>"; };
+		189D0CA61EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.43.56.png"; sourceTree = "<group>"; };
+		189D0CA71EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.44.12.png"; sourceTree = "<group>"; };
+		189D0CA81EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.44.24.png"; sourceTree = "<group>"; };
+		189D0CA91EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-05-04 上午9.44.38.png"; sourceTree = "<group>"; };
 		18C431E11EB9EB3500981656 /* CKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAlertViewController.h; sourceTree = "<group>"; };
 		18C431E21EB9EB3500981656 /* CKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAlertViewController.m; sourceTree = "<group>"; };
 		18C431E51EB9EB6900981656 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
@@ -82,6 +98,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189D0CA11EBABFDC006D5652 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+				189D0CA21EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png */,
+				189D0CA31EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png */,
+				189D0CA41EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png */,
+				189D0CA51EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png */,
+				189D0CA61EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png */,
+				189D0CA71EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png */,
+				189D0CA81EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png */,
+				189D0CA91EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png */,
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
 		18C431E01EB9EB3500981656 /* CKAlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +134,7 @@
 		18E7924C1EB9CE5C002AAC08 = {
 			isa = PBXGroup;
 			children = (
+				189D0CA11EBABFDC006D5652 /* 未命名文件夹 */,
 				18E792571EB9CE5C002AAC08 /* CallRecognize_DEMO */,
 				18E792971EB9E93C002AAC08 /* WDCallKit */,
 				18E792561EB9CE5C002AAC08 /* Products */,
@@ -241,6 +273,14 @@
 				18E792681EB9CE5C002AAC08 /* LaunchScreen.storyboard in Resources */,
 				18E792651EB9CE5C002AAC08 /* Assets.xcassets in Resources */,
 				18E792631EB9CE5C002AAC08 /* Main.storyboard in Resources */,
+				189D0CB11EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.38.png in Resources */,
+				189D0CAF1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.12.png in Resources */,
+				189D0CAA1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.01.png in Resources */,
+				189D0CAE1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.43.56.png in Resources */,
+				189D0CAD1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.42.25.png in Resources */,
+				189D0CAC1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.41.54.png in Resources */,
+				189D0CB01EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.44.24.png in Resources */,
+				189D0CAB1EBABFDC006D5652 /* 屏幕快照 2017-05-04 上午9.40.49.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
