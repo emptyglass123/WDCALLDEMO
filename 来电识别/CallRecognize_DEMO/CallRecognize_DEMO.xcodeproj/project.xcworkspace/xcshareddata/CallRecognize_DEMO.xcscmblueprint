@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "02BA55EBADA500D7123587273DCD2D1D90017D13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "02BA55EBADA500D7123587273DCD2D1D90017D13" : 9223372036854775807,
+    "5650F0BB011ABAB8D51838FADDB037A178777897" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5ECB6776-15AB-4303-BF77-18824A8F79DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "02BA55EBADA500D7123587273DCD2D1D90017D13" : "%E6%9D%A5%E7%94%B5%E8%AF%86%E5%88%AB\/",
+    "5650F0BB011ABAB8D51838FADDB037A178777897" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CallRecognize_DEMO",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "来电识别\/CallRecognize_DEMO\/CallRecognize_DEMO.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/emptyglass123\/WDCALLDEMO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "02BA55EBADA500D7123587273DCD2D1D90017D13"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/emptyglass123\/TuYa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5650F0BB011ABAB8D51838FADDB037A178777897"
+    }
+  ]
+}
